@@ -8,6 +8,7 @@ from langchain_community.vectorstores import FAISS
 # --- 1. Configure the API --- 
 # IMPORTANT: Set your API key in an environment variable named OPENAI_API_KEY
 # You can get a free key from Google AI Studio: https://aistudio.google.com/app/apikey
+OPENAI_API_KEY="AIzaSyBtNGwvD_j9W-0_NCxXtUxYK4iy9o4rmAI"
 client = OpenAI()
 
 # --- 2. Load and Chunk the Knowledge Base ---
